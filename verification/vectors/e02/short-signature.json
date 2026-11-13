@@ -1,0 +1,9 @@
+{
+  "id": "short-signature",
+  "scope": "wire-parser-only; no cryptographic or on-chain claim",
+  "input": "ARKHE:REF:v1:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:1:111111111111111111111111111111111111111111111111111111111111111",
+  "expected": {
+    "ok": false,
+    "reason": "MEMO_MALFORMED"
+  }
+}

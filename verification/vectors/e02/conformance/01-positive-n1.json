@@ -1,0 +1,85 @@
+{
+  "id": "01-positive-n1",
+  "scope": "synthetic conformance input; receipts are not authenticated",
+  "invariants": [
+    "E02-1",
+    "E02-2",
+    "E02-3",
+    "E02-4",
+    "E02-5",
+    "E02-6",
+    "E02-7",
+    "E02-8",
+    "E02-9",
+    "E02-11",
+    "E02-13"
+  ],
+  "input": {
+    "signature": "5f5r5AjuFd8WwUagQSztAgufUCE6rdYhXmjU5rtnBPsxmfC5fFCUGiqQCcQZmAfFzuo6gyYYm616Roc1HEhREX5",
+    "receipt": {
+      "slot": 9,
+      "meta": {
+        "err": null
+      },
+      "transaction": {
+        "signatures": [
+          "5f5r5AjuFd8WwUagQSztAgufUCE6rdYhXmjU5rtnBPsxmfC5fFCUGiqQCcQZmAfFzuo6gyYYm616Roc1HEhREX5"
+        ],
+        "message": {
+          "accountKeys": [
+            "CktRuQ2mttgRGkXJtyksdKHjUdc2C4TgDzyB98oEzy8",
+            "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+          ],
+          "header": {
+            "numRequiredSignatures": 1
+          },
+          "instructions": [
+            {
+              "programIdIndex": 1,
+              "accounts": [
+                0
+              ],
+              "data": "3vW9ZcnTtGTyzzt7DsnvKaThoibWFNurQgxHsK5Sm8RFJVL4RsuMFm9BWfNBu8gxRBDTEL6cSnb27orALEYxFwpSLa7LjHrRwhYAWBPwVuPfMtJwLeTsPmUKCHtgayGngK3bfMKAPjjoxPWp8SJRsatriqbxvnaooZ7b3wcn8JsPaSjn7deR9JzwaPkAszGBX6gZzsLUV38EmoDzZEGa694YfxAXi1gBUKTwY6m1ThV1MpELQsCUny6CD1bmfWkDo6TGrBVPouoX3fN769o48vbUNtF1uRD7fvsNpPGZoASypafUkzq2ZMySsjmkYBDS8c2r7FuyJhTMBYg7tEgivxcqgLaqDj56pwfeWyxbD879oPxwFxKg736uosquyyE1cQYBej61iCTBrzHu9dV4UD"
+            }
+          ]
+        }
+      }
+    },
+    "anchorReceipt": {
+      "slot": 9,
+      "meta": {
+        "err": null
+      },
+      "transaction": {
+        "signatures": [
+          "6pc4LiB8KHAPvbUbkozrTcPL5zXspYBdATv5raNDyVbhiKjrKokLb9o111kxTD5KkPVd7UBSCcFcnWFkrJ82Hu6"
+        ],
+        "message": {
+          "accountKeys": [
+            "CktRuQ2mttgRGkXJtyksdKHjUdc2C4TgDzyB98oEzy8",
+            "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+          ],
+          "header": {
+            "numRequiredSignatures": 1
+          },
+          "instructions": [
+            {
+              "programIdIndex": 1,
+              "accounts": [
+                0
+              ],
+              "data": "6QGiSHhGkAPzVk8uRy4VHvMTGYLVxLiyd2ZDwtGiaTtn2mDNVatmw9WzPRqGceqH74RRLJCUV3mec461dcMRe61KCDVRnkWuNEXCQKQGVokjKjrHWDhfEwWEMrPtPZfMSZAGXQjVKZ5RyquwfZ7sMfRFvhvXEZj9kfmsamTsgHJKWwA5QegpS4MKdz1SRUTKcG8XfqQcj"
+            }
+          ]
+        }
+      }
+    },
+    "datasetText": "{\"leaves\":[\"414b473a4530323a4c4541463a7631007b226172746966616374223a2273796e7468657469632d766563746f722d30222c226b696e64223a226530312d72756e222c226c6162656c223a2273796e7468657469632d706f63222c2270726f6475636572223a2231313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131222c227375626a656374223a2230303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030222c2276223a317d\"],\"n\":1,\"profile\":{\"digest\":\"bcd07a275061ef385fccdd184030c2358fdd0937477cb0ef30cf8148342f2450\",\"id\":\"arkhe-mmr\",\"version\":1},\"root\":\"52af16c834ca0ef6111f1233b9741a61d6129ff016f4762ca00f0caf04b13c17\",\"v\":1}",
+    "datasetOrigin": "<vector>",
+    "cluster": "devnet"
+  },
+  "expected": {
+    "outcome": "VERIFIED",
+    "reason": null
+  }
+}

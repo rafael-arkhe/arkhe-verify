@@ -1,0 +1,9 @@
+{
+  "id": "future-version",
+  "scope": "wire-parser-only; no cryptographic or on-chain claim",
+  "input": "ARKHE:REF:v2:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:1:1111111111111111111111111111111111111111111111111111111111111111",
+  "expected": {
+    "ok": false,
+    "reason": "MEMO_PROFILE_UNKNOWN"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "C2PA-NEG-001",
+  "component": "C2PA Manifest Parsing",
+  "status": "READY",
+  "normative_source": "C2PA Technical Specification 2.3 claim-map-v2",
+  "description": "Original simplified claim must be rejected as claim-map-v2",
+  "input": {
+    "claim_json": {
+      "claim_generator": "Arkhe/1.0",
+      "title": "test_asset.jpg",
+      "format": "image/jpeg",
+      "alg": "Ed25519"
+    }
+  },
+  "expected_output": {
+    "valid_claim_map_v2": false
+  }
+}

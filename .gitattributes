@@ -1,0 +1,2 @@
+* -text
+/tests/golden_vectors.json text eol=lf

@@ -1,0 +1,9 @@
+{
+  "id": "anchor-max-n",
+  "scope": "wire-parser-only; no cryptographic or on-chain claim",
+  "input": "ARKHE:ANCHOR:v1:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:4294967295:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "expected": {
+    "ok": true,
+    "profile": "anchor"
+  }
+}

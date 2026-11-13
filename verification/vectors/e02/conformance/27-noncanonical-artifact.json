@@ -1,0 +1,75 @@
+{
+  "id": "27-noncanonical-artifact",
+  "scope": "synthetic conformance input; receipts are not authenticated",
+  "invariants": [
+    "E02-2"
+  ],
+  "input": {
+    "signature": "5f5r5AjuFd8WwUagQSztAgufUCE6rdYhXmjU5rtnBPsxmfC5fFCUGiqQCcQZmAfFzuo6gyYYm616Roc1HEhREX5",
+    "receipt": {
+      "slot": 9,
+      "meta": {
+        "err": null
+      },
+      "transaction": {
+        "signatures": [
+          "5f5r5AjuFd8WwUagQSztAgufUCE6rdYhXmjU5rtnBPsxmfC5fFCUGiqQCcQZmAfFzuo6gyYYm616Roc1HEhREX5"
+        ],
+        "message": {
+          "accountKeys": [
+            "CktRuQ2mttgRGkXJtyksdKHjUdc2C4TgDzyB98oEzy8",
+            "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+          ],
+          "header": {
+            "numRequiredSignatures": 1
+          },
+          "instructions": [
+            {
+              "programIdIndex": 1,
+              "accounts": [
+                0
+              ],
+              "data": "3vW9ZcnTtGTyzzt7DsnvKaThoibWFNurQgxHsK5Sm8RFJVL4RsuMFm9BWfNBu8gxRBDTEL6cSnb27orALEYxFwpSLa7LjHrRwhYAWBPwVuPeAj7L11YYwmtWv9ciift9yQWVpAAEpN6A8EHxnr9BF7eNnguomdNjBjKHpVNH85Q5PqWKcbeTWBafzAcBShwANfyVAJqz5noNzU6v89qnUFknPHnNKpHCMrdv9L4mqsjZH3ext8ncQW5FmsgoBNqW8HdTvKTNWPHEwmUWXBkYEETCwurXQpbzyJHpyV2rPdcpe3zW2CA736WNgjHATnQhXtH3tYwiCbCrmcTMfiThdcpP8zEc3hd94A649WoNtnoqVeJQfBZCRE3ik9uwyNSUoFTxPUupqnNGsWnHoEdKzM"
+            }
+          ]
+        }
+      }
+    },
+    "anchorReceipt": {
+      "slot": 9,
+      "meta": {
+        "err": null
+      },
+      "transaction": {
+        "signatures": [
+          "6pc4LiB8KHAPvbUbkozrTcPL5zXspYBdATv5raNDyVbhiKjrKokLb9o111kxTD5KkPVd7UBSCcFcnWFkrJ82Hu6"
+        ],
+        "message": {
+          "accountKeys": [
+            "CktRuQ2mttgRGkXJtyksdKHjUdc2C4TgDzyB98oEzy8",
+            "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr"
+          ],
+          "header": {
+            "numRequiredSignatures": 1
+          },
+          "instructions": [
+            {
+              "programIdIndex": 1,
+              "accounts": [
+                0
+              ],
+              "data": "6QGiSHhGkAPzVk8uRy4VHvLsgs9vbobqXRQ9PUwfSThGyHvUnS9eUyLNhAqrSFmBFAVqtu8X7SfdficAdDEQcQhiNz36xKFKtWyWzuFFpMqveBBhNp59fb1AuvnBjFXE2mDveKVfqKKLcTP7wQFEPXDr84Uz8BbWP664PTHsU5G7Dc4sC6HwPRY2UutZgkyNnmpL6jCAc"
+            }
+          ]
+        }
+      }
+    },
+    "datasetText": "{\"leaves\":[\"414b473a4530323a4c4541463a7631007b0a20226172746966616374223a202273796e7468657469632d766563746f722d30222c0a20226b696e64223a20226530312d72756e222c0a20226c6162656c223a202273796e7468657469632d706f63222c0a202270726f6475636572223a202231313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131313131222c0a20227375626a656374223a202230303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030303030222c0a202276223a20310a7d\"],\"n\":1,\"profile\":{\"digest\":\"bcd07a275061ef385fccdd184030c2358fdd0937477cb0ef30cf8148342f2450\",\"id\":\"arkhe-mmr\",\"version\":1},\"root\":\"1ae4bf9e1c680063c4702cfc9ad5fee66697505502f5c2432efa047c7603bed8\",\"v\":1}",
+    "datasetOrigin": "<vector>",
+    "cluster": "devnet"
+  },
+  "expected": {
+    "outcome": "NOT_VERIFIABLE",
+    "reason": "ARTIFACT_INVALID"
+  }
+}

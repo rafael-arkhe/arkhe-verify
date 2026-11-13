@@ -1,0 +1,14 @@
+{
+  "id": "BLAKE3-001",
+  "component": "BLAKE3",
+  "status": "READY",
+  "normative_source": "BLAKE3 official test vectors",
+  "description": "BLAKE3 hash of empty input",
+  "input": {
+    "data_hex": "",
+    "domain": "none"
+  },
+  "expected_output": {
+    "hash_hex": "af1349b9f5f9a1a6a0404dea36dcc9499bcb25c9adc112b7cc9a93cae41f3262"
+  }
+}

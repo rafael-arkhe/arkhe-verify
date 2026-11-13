@@ -1,0 +1,14 @@
+{
+  "id": "BLAKE3-002",
+  "component": "BLAKE3",
+  "status": "READY",
+  "normative_source": "BLAKE3 known-answer vector for ASCII abc",
+  "description": "BLAKE3 hash of ASCII abc",
+  "input": {
+    "data_hex": "616263",
+    "domain": "none"
+  },
+  "expected_output": {
+    "hash_hex": "6437b3ac38465133ffb63b75273a8db548c558465d79db03fd359c6cd5bd9d85"
+  }
+}

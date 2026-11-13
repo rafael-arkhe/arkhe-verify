@@ -1,0 +1,33 @@
+[workspace]
+resolver = "2"
+members = [
+  "kernel/arkhe-core",
+  "integration/auth-md",
+  "verification/crates/arkhe-verify-core",
+  "verification/crates/arkhe-verify-cli",
+  "verification/crates/arkhe-verify-wasm",
+]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+license = "Apache-2.0 OR MIT"
+
+[workspace.dependencies]
+anyhow = "1"
+async-trait = "0.1"
+blake3 = "1.5"
+clap = { version = "4.5", features = ["derive"] }
+ed25519-dalek = "2.2.0"
+hex = "0.4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+thiserror = "2"
+wasm-bindgen = "0.2"
+
+# Unoptimised Ed25519 verification makes the exhaustive signature tests slow:
+# the custody byte-flip test takes ~22 s in debug and ~0.5 s with this.
+# Optimising only this dependency keeps debug assertions everywhere else.
+[profile.dev.package.curve25519-dalek]
+opt-level = 3

@@ -1,0 +1,30 @@
+{
+  "id": "C2PA-001",
+  "component": "C2PA Manifest Parsing",
+  "status": "CANDIDATE",
+  "normative_source": "C2PA Technical Specification 2.3 claim-map-v2 + RFC 8949 \u00a74.2.1",
+  "description": "Core-deterministic CBOR serialization of a minimal hand-authored claim-map-v2 fixture",
+  "input": {
+    "claim_v2": {
+      "instanceID": "urn:c2pa:00000000-0000-4000-8000-000000000001",
+      "claim_generator_info": {
+        "name": "Arkhe",
+        "version": "1.0"
+      },
+      "signature": "self#jumbf=c2pa.signature",
+      "created_assertions": [
+        {
+          "url": "self#jumbf=c2pa.assertions/c2pa.hash.data",
+          "hash_hex": "0000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ],
+      "alg": "sha256",
+      "dc:title": "test_asset.jpg",
+      "specVersion": "2.3"
+    }
+  },
+  "expected_output": {
+    "canonical_cbor_hex": "a763616c67667368613235366864633a7469746c656e746573745f61737365742e6a7067697369676e6174757265781973656c66236a756d62663d633270612e7369676e61747572656a696e7374616e63654944782d75726e3a633270613a30303030303030302d303030302d343030302d383030302d3030303030303030303030316b7370656356657273696f6e63322e3372637265617465645f617373657274696f6e7381a26375726c782973656c66236a756d62663d633270612e617373657274696f6e732f633270612e686173682e6461746164686173685820000000000000000000000000000000000000000000000000000000000000000074636c61696d5f67656e657261746f725f696e666fa2646e616d656541726b68656776657273696f6e63312e30",
+    "sha256_of_canonical_claim_bytes": "895d7897427039f7574407f8209cc72d084fabc16e259db0baaf2597c4d4f3c7"
+  }
+}
